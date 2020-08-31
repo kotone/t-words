@@ -1,8 +1,6 @@
 // @ts-ignore
 import React, { Component } from 'react'
-import Taro, { Config } from '@tarojs/taro'
-
-import './app.less'
+import Taro from '@tarojs/taro'
 
 class App extends Component {
 
