@@ -1,10 +1,12 @@
 // @ts-ignore
 import React, { Component } from 'react'
 import Taro from '@tarojs/taro'
-
+import './styles/index.less'
 class App extends Component {
 
   componentDidMount () {
+    let systemInfo = Taro.getSystemInfoSync()
+    console.log(systemInfo)
     if (process.env.TARO_ENV === 'weapp') {
       Taro.cloud.init()
     }

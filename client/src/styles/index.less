@@ -1,0 +1,33 @@
+@import './iconfont.less';
+page{
+  background-image: url(https://wallpaper.infinitynewtab.com/wallpaper/162.jpg);
+  // background-image: var(--pagebackground);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  overflow: hidden;
+  .pageBlur{
+    color: #ffffff;
+    background: rgba(0,0,0,0.65);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+  }
+}
+button{
+  width: 90%;
+  background: #ffffff;
+  align-self: center;
+  color: #41403E;
+  letter-spacing: 2px;
+  outline: none;
+  font-family: "iconfont" !important;
+  font-size: 32px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: solid 4px #41403E;
+  border-radius: ~"255px 15px 255px 15px/15px 255px 15px 255px";
+}
+button::after{
+  border: none;
+}

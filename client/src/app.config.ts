@@ -6,7 +6,13 @@ export default {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
     navigationBarTitleText: 'WeChat',
-    navigationBarTextStyle: 'black'
+    navigationBarTextStyle: 'white',
+    navigationStyle: 'custom'
   },
+  networkTimeout: {
+    request: 5000,
+    downloadFile: 10000
+  },
+  lazyCodeLoading: 'requiredComponents',
   cloud: true
 }
